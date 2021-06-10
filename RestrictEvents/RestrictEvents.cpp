@@ -60,7 +60,8 @@ struct RestrictEventsPolicy {
 			"/System/Library/CoreServices/ExpansionSlotNotification",
 			"/System/Library/CoreServices/MemorySlotNotification",
 			"/usr/libexec/firmwarecheckers/eficheck/eficheck",
-			"/usr/libexec/displaypolicyd"
+			// "/usr/libexec/displaypolicyd",
+			"/usr/sbin/BlueTool"
 		};
 
 		char pathbuf[MAXPATHLEN];
